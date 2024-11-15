@@ -1,0 +1,1 @@
+/home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation/ament_cmake_core/turtlebot4_navigationConfig-version.cmake

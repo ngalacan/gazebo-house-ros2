@@ -1,0 +1,1 @@
+Invoking command in '/home/ngalacan/turtlebot4_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngalacan/turtlebot4_ws/build/turtlebot4_msgs -- -j4 -l4

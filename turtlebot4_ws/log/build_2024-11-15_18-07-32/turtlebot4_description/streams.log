@@ -1,0 +1,37 @@
+[0.215s] Invoking command in '/home/ngalacan/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ngalacan/turtlebot4_ws/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ngalacan/turtlebot4_ws/install/turtlebot4_description
+[1.203s] -- The C compiler identification is GNU 11.4.0
+[2.151s] -- The CXX compiler identification is GNU 11.4.0
+[2.336s] -- Detecting C compiler ABI info
+[2.998s] -- Detecting C compiler ABI info - done
+[3.072s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.073s] -- Detecting C compile features
+[3.073s] -- Detecting C compile features - done
+[3.099s] -- Detecting CXX compiler ABI info
+[3.525s] -- Detecting CXX compiler ABI info - done
+[3.622s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.622s] -- Detecting CXX compile features
+[3.622s] -- Detecting CXX compile features - done
+[3.622s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.558s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.720s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.044s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[5.645s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[5.646s]   By not providing "Findirobot_create_description.cmake" in CMAKE_MODULE_PATH
+[5.646s]   this project has asked CMake to find a package configuration file provided
+[5.646s]   by "irobot_create_description", but CMake did not find one.
+[5.646s] 
+[5.646s]   Could not find a package configuration file provided by
+[5.657s]   "irobot_create_description" with any of the following names:
+[5.669s] 
+[5.669s]     irobot_create_descriptionConfig.cmake
+[5.669s]     irobot_create_description-config.cmake
+[5.705s] 
+[5.705s]   Add the installation prefix of "irobot_create_description" to
+[5.705s]   CMAKE_PREFIX_PATH or set "irobot_create_description_DIR" to a directory
+[5.706s]   containing one of the above files.  If "irobot_create_description" provides
+[5.706s]   a separate development package or SDK, be sure it has been installed.
+[5.707s] 
+[5.707s] [0m
+[5.707s] -- Configuring incomplete, errors occurred!
+[5.707s] See also "/home/ngalacan/turtlebot4_ws/build/turtlebot4_description/CMakeFiles/CMakeOutput.log".
+[5.720s] Invoked command in '/home/ngalacan/turtlebot4_ws/build/turtlebot4_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ngalacan/turtlebot4_ws/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ngalacan/turtlebot4_ws/install/turtlebot4_description

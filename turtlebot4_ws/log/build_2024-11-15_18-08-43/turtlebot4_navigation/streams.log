@@ -1,0 +1,11 @@
+[0.115s] Invoking command in '/home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation -- -j4 -l4
+[0.489s] Built target ament_cmake_python_symlink_turtlebot4_navigation
+[1.611s] running egg_info
+[1.611s] creating turtlebot4_navigation.egg-info
+[1.611s] writing turtlebot4_navigation.egg-info/PKG-INFO
+[1.611s] writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+[1.611s] writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+[1.611s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.611s] reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.611s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.673s] Built target ament_cmake_python_build_turtlebot4_navigation_egg

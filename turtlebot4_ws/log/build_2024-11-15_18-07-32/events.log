@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.014176] (turtlebot4_description) JobQueued: {'identifier': 'turtlebot4_description', 'dependencies': OrderedDict()}
+[0.014253] (turtlebot4_msgs) JobQueued: {'identifier': 'turtlebot4_msgs', 'dependencies': OrderedDict()}
+[0.014276] (turtlebot4_navigation) JobQueued: {'identifier': 'turtlebot4_navigation', 'dependencies': OrderedDict()}
+[0.014293] (turtlebot4_node) JobQueued: {'identifier': 'turtlebot4_node', 'dependencies': OrderedDict([('turtlebot4_msgs', '/home/ngalacan/turtlebot4_ws/install/turtlebot4_msgs')])}
+[0.014315] (turtlebot4_msgs) JobStarted: {'identifier': 'turtlebot4_msgs'}
+[0.111926] (-) TimerEvent: {}
+[0.115567] (turtlebot4_description) JobStarted: {'identifier': 'turtlebot4_description'}
+[0.193384] (turtlebot4_navigation) JobStarted: {'identifier': 'turtlebot4_navigation'}
+[0.207734] (turtlebot4_msgs) JobProgress: {'identifier': 'turtlebot4_msgs', 'progress': 'cmake'}
+[0.213938] (turtlebot4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ngalacan/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ngalacan/turtlebot4_ws/install/turtlebot4_msgs'], 'cwd': '/home/ngalacan/turtlebot4_ws/build/turtlebot4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngalacan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngalacan'), ('OLDPWD', '/home/ngalacan/turtlebot4_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1638'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ngalacan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngalacan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asus:@/tmp/.ICE-unix/1008,unix/asus:/tmp/.ICE-unix/1008'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18c7440e_ead3_442a_aabf_61b2283ba752'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PGK4W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngalacan/turtlebot4_ws/build/turtlebot4_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.215021] (-) TimerEvent: {}
+[0.256424] (turtlebot4_description) JobProgress: {'identifier': 'turtlebot4_description', 'progress': 'cmake'}
+[0.328725] (turtlebot4_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ngalacan/turtlebot4_ws/src/turtlebot4/turtlebot4_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ngalacan/turtlebot4_ws/install/turtlebot4_description'], 'cwd': '/home/ngalacan/turtlebot4_ws/build/turtlebot4_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngalacan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngalacan'), ('OLDPWD', '/home/ngalacan/turtlebot4_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1638'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ngalacan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngalacan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asus:@/tmp/.ICE-unix/1008,unix/asus:/tmp/.ICE-unix/1008'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18c7440e_ead3_442a_aabf_61b2283ba752'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PGK4W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngalacan/turtlebot4_ws/build/turtlebot4_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.330881] (-) TimerEvent: {}
+[0.383871] (turtlebot4_navigation) JobProgress: {'identifier': 'turtlebot4_navigation', 'progress': 'cmake'}
+[0.388066] (turtlebot4_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/ngalacan/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation'], 'cwd': '/home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngalacan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngalacan'), ('OLDPWD', '/home/ngalacan/turtlebot4_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1638'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ngalacan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngalacan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asus:@/tmp/.ICE-unix/1008,unix/asus:/tmp/.ICE-unix/1008'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18c7440e_ead3_442a_aabf_61b2283ba752'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PGK4W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.453150] (-) TimerEvent: {}
+[0.562305] (-) TimerEvent: {}
+[0.669267] (-) TimerEvent: {}
+[0.783329] (-) TimerEvent: {}
+[0.903410] (-) TimerEvent: {}
+[1.025586] (-) TimerEvent: {}
+[1.133855] (-) TimerEvent: {}
+[1.247923] (-) TimerEvent: {}
+[1.307217] (turtlebot4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.309899] (turtlebot4_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.318047] (turtlebot4_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.352102] (-) TimerEvent: {}
+[1.467110] (-) TimerEvent: {}
+[1.577667] (-) TimerEvent: {}
+[1.702466] (-) TimerEvent: {}
+[1.804645] (-) TimerEvent: {}
+[1.907492] (-) TimerEvent: {}
+[2.014059] (-) TimerEvent: {}
+[2.126481] (-) TimerEvent: {}
+[2.233962] (-) TimerEvent: {}
+[2.266051] (turtlebot4_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.301706] (turtlebot4_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.335134] (-) TimerEvent: {}
+[2.406661] (turtlebot4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.442253] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.451473] (-) TimerEvent: {}
+[2.459869] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.497305] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.559772] (-) TimerEvent: {}
+[2.660642] (-) TimerEvent: {}
+[2.768898] (-) TimerEvent: {}
+[2.876232] (-) TimerEvent: {}
+[2.976776] (-) TimerEvent: {}
+[3.084682] (-) TimerEvent: {}
+[3.108997] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.112946] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.132840] (turtlebot4_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.138309] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.139104] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.141610] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.187858] (turtlebot4_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.188116] (-) TimerEvent: {}
+[3.188730] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.188879] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.188972] (turtlebot4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.189315] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.189417] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.190683] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.210644] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.214716] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.295541] (-) TimerEvent: {}
+[3.395944] (-) TimerEvent: {}
+[3.499709] (-) TimerEvent: {}
+[3.607698] (-) TimerEvent: {}
+[3.625498] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.625714] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.640185] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.640740] (turtlebot4_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.640837] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.640893] (turtlebot4_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.660338] (turtlebot4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.662617] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.662765] (turtlebot4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.669623] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.735860] (turtlebot4_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.736065] (-) TimerEvent: {}
+[3.737215] (turtlebot4_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.737335] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.737392] (turtlebot4_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.737446] (turtlebot4_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.836643] (-) TimerEvent: {}
+[3.943348] (-) TimerEvent: {}
+[4.058643] (-) TimerEvent: {}
+[4.159187] (-) TimerEvent: {}
+[4.260945] (-) TimerEvent: {}
+[4.374436] (-) TimerEvent: {}
+[4.476337] (-) TimerEvent: {}
+[4.576803] (-) TimerEvent: {}
+[4.588958] (turtlebot4_navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.673335] (turtlebot4_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.685823] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.686210] (-) TimerEvent: {}
+[4.779640] (turtlebot4_navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.781806] (turtlebot4_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.794613] (-) TimerEvent: {}
+[4.834912] (turtlebot4_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.895296] (-) TimerEvent: {}
+[5.005140] (-) TimerEvent: {}
+[5.126432] (-) TimerEvent: {}
+[5.132064] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.158961] (turtlebot4_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[5.236516] (-) TimerEvent: {}
+[5.341573] (-) TimerEvent: {}
+[5.451730] (-) TimerEvent: {}
+[5.486001] (turtlebot4_navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.555824] (-) TimerEvent: {}
+[5.654063] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.656085] (-) TimerEvent: {}
+[5.711918] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.760672] (turtlebot4_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[5.760925] (-) TimerEvent: {}
+[5.761065] (turtlebot4_description) StderrLine: {'line': b'  By not providing "Findirobot_create_description.cmake" in CMAKE_MODULE_PATH\n'}
+[5.761136] (turtlebot4_description) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[5.761190] (turtlebot4_description) StderrLine: {'line': b'  by "irobot_create_description", but CMake did not find one.\n'}
+[5.761242] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[5.761294] (turtlebot4_description) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[5.761351] (turtlebot4_description) StderrLine: {'line': b'  "irobot_create_description" with any of the following names:\n'}
+[5.781631] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[5.784217] (turtlebot4_description) StderrLine: {'line': b'    irobot_create_descriptionConfig.cmake\n'}
+[5.784315] (turtlebot4_description) StderrLine: {'line': b'    irobot_create_description-config.cmake\n'}
+[5.784375] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[5.820610] (turtlebot4_description) StderrLine: {'line': b'  Add the installation prefix of "irobot_create_description" to\n'}
+[5.820940] (turtlebot4_description) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "irobot_create_description_DIR" to a directory\n'}
+[5.821024] (turtlebot4_description) StderrLine: {'line': b'  containing one of the above files.  If "irobot_create_description" provides\n'}
+[5.822001] (turtlebot4_description) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[5.822071] (turtlebot4_description) StderrLine: {'line': b'\n'}
+[5.822124] (turtlebot4_description) StderrLine: {'line': b'\x1b[0m\n'}
+[5.822176] (turtlebot4_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.822238] (turtlebot4_description) StdoutLine: {'line': b'See also "/home/ngalacan/turtlebot4_ws/build/turtlebot4_description/CMakeFiles/CMakeOutput.log".\n'}
+[5.834355] (turtlebot4_description) CommandEnded: {'returncode': 1}
+[5.845468] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.861334] (-) TimerEvent: {}
+[5.970674] (-) TimerEvent: {}
+[6.013766] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.016453] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.020552] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.020719] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.024370] (turtlebot4_navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.037200] (turtlebot4_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.045768] (turtlebot4_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[6.047892] (turtlebot4_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation\n'}
+[6.072495] (-) TimerEvent: {}
+[6.101981] (turtlebot4_description) JobEnded: {'identifier': 'turtlebot4_description', 'rc': 1}
+[6.110722] (turtlebot4_navigation) JobEnded: {'identifier': 'turtlebot4_navigation', 'rc': 'SIGINT'}
+[6.175163] (-) TimerEvent: {}
+[6.195090] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.286099] (-) TimerEvent: {}
+[6.389907] (-) TimerEvent: {}
+[6.493054] (-) TimerEvent: {}
+[6.553743] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[6.593821] (-) TimerEvent: {}
+[6.731052] (-) TimerEvent: {}
+[6.837749] (-) TimerEvent: {}
+[6.939712] (-) TimerEvent: {}
+[7.044744] (-) TimerEvent: {}
+[7.150789] (-) TimerEvent: {}
+[7.256733] (-) TimerEvent: {}
+[7.373040] (-) TimerEvent: {}
+[7.434997] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.477315] (-) TimerEvent: {}
+[7.583097] (-) TimerEvent: {}
+[7.691966] (-) TimerEvent: {}
+[7.795042] (-) TimerEvent: {}
+[7.916699] (-) TimerEvent: {}
+[8.020713] (-) TimerEvent: {}
+[8.125030] (-) TimerEvent: {}
+[8.208157] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.227100] (-) TimerEvent: {}
+[8.338096] (-) TimerEvent: {}
+[8.453830] (-) TimerEvent: {}
+[8.562639] (-) TimerEvent: {}
+[8.666841] (-) TimerEvent: {}
+[8.778730] (-) TimerEvent: {}
+[8.880041] (-) TimerEvent: {}
+[8.933904] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.986445] (-) TimerEvent: {}
+[9.045084] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.081860] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.088595] (-) TimerEvent: {}
+[9.191112] (-) TimerEvent: {}
+[9.206648] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[9.207016] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.207093] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.207145] (turtlebot4_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.286967] (turtlebot4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.292837] (-) TimerEvent: {}
+[9.362079] (turtlebot4_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.398420] (turtlebot4_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.398601] (-) TimerEvent: {}
+[9.398711] (turtlebot4_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.436465] (turtlebot4_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.509038] (-) TimerEvent: {}
+[9.529118] (turtlebot4_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[9.529665] (turtlebot4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ngalacan/turtlebot4_ws/build/turtlebot4_msgs\n'}
+[9.598739] (turtlebot4_msgs) JobEnded: {'identifier': 'turtlebot4_msgs', 'rc': 'SIGINT'}
+[9.655647] (turtlebot4_node) JobSkipped: {'identifier': 'turtlebot4_node'}
+[9.655736] (-) TimerEvent: {}
+[9.656020] (-) EventReactorShutdown: {}

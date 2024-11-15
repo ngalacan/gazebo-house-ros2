@@ -1,0 +1,54 @@
+[0.116s] Invoking command in '/home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation -- -j4 -l4
+[0.615s] Built target ament_cmake_python_symlink_turtlebot4_navigation
+[1.704s] running egg_info
+[1.734s] writing turtlebot4_navigation.egg-info/PKG-INFO
+[1.765s] writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+[1.766s] writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+[1.766s] reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.767s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.929s] Built target ament_cmake_python_build_turtlebot4_navigation_egg
+[2.033s] Invoked command in '/home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation -- -j4 -l4
+[2.573s] Invoking command in '/home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation
+[2.592s] -- Install configuration: ""
+[2.594s] -- Execute custom install script
+[2.598s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml
+[2.657s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml
+[2.673s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml
+[2.728s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py
+[2.772s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py
+[2.852s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py
+[2.883s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.pgm
+[2.991s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.yaml
+[3.110s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.pgm
+[3.151s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.yaml
+[3.201s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.pgm
+[3.238s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.yaml
+[3.301s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh
+[3.320s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv
+[3.418s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/PKG-INFO
+[3.565s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/SOURCES.txt
+[3.659s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/dependency_links.txt
+[3.789s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/top_level.txt
+[3.826s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/__init__.py
+[3.847s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/turtlebot4_navigator.py
+[3.856s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigator.py
+[3.911s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation
+[3.927s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation
+[4.031s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh
+[4.049s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv
+[4.130s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh
+[4.187s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv
+[4.256s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash
+[4.288s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh
+[4.347s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh
+[4.393s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv
+[4.423s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv
+[4.445s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation
+[4.460s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake
+[4.483s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake
+[4.511s] -- Symlinking: /home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml
+[4.596s] Listing '/home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation'...
+[4.596s] Compiling '/home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/__init__.py'...
+[4.597s] Compiling '/home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/turtlebot4_navigator.py'...
+[4.808s] Compiling '/home/ngalacan/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigator.py'...
+[4.871s] Invoked command in '/home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ngalacan/turtlebot4_ws/build/turtlebot4_navigation
